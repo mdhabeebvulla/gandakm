@@ -1,0 +1,17 @@
+# Core
+pdfplumber>=0.10.0         # PDF parsing
+rank_bm25>=0.2.2           # BM25 sparse retrieval
+openai>=1.0.0              # Generation + query construction
+numpy>=1.24.0              # Array ops
+faiss-cpu>=1.7.0           # Vector similarity search
+networkx>=3.0              # Section relationship graph
+
+# Open-Source Embeddings + Reranker (ONNX, no PyTorch needed)
+fastembed>=0.7.0           # BAAI/bge-large-en-v1.5 + bge-reranker-v2-m3
+
+# Alternative: PyTorch-based (larger install, same models)
+# sentence-transformers>=2.0.0
+
+# Optional: Evaluation
+# ragas>=0.1.0             # Full RAGAS evaluation suite
+# deepeval>=0.20.0         # DeepEval metrics
